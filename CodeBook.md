@@ -42,3 +42,93 @@ https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Datas
       Test set.
 7. y_test.txt## Data package
 
+## Data packages needed to install
+data.table()
+
+## Activity names to name the activities in the data set
+They come from activity_labels.txt
+We read them into RStudio in  activities <- read.table("activity_labels.txt")
+and incorporate into the merged data set later in the run_analysis.R script
+These names are      
+      WALKING
+      WALKING_UPSTAIRS
+      WALKING_DOWNSTAIRS
+      SITTING
+      STANDING
+      LAYING
+
+## Names of the attributes in the merged data set are as following
+    
+      "tbodyacc-mean-x"
+      "tbodyacc-mean-y"
+      "tbodyacc-mean-z"
+      "tbodyacc-std-x"
+      "tbodyacc-std-y"
+      "tbodyacc-std-z"
+      "tgravityacc-mean-x"
+      "tgravityacc-mean-y"
+      "tgravityacc-mean-z"
+      "tgravityacc-std-x"
+      "tgravityacc-std-y"
+      "tgravityacc-std-z"
+      "tbodyaccjerk-mean-x"
+      "tbodyaccjerk-mean-y"
+      "tbodyaccjerk-mean-z"
+      "tbodyaccjerk-std-x"
+      "tbodyaccjerk-std-y"
+      "tbodyaccjerk-std-z"
+      "tbodygyro-mean-x"
+      "tbodygyro-mean-y"
+      "tbodygyro-mean-z"
+      "tbodygyro-std-y"
+      "tbodygyro-std-z"
+      "tbodygyrojerk-mean-x"
+      "tbodygyrojerk-mean-y"
+      "tbodygyrojerk-mean-z"
+      "tbodygyrojerk-std-x"
+      "tbodygyrojerk-std-y"
+      "tbodygyrojerk-std-z"
+      "tbodyaccmag-mean"
+      "tbodyaccmag-std"
+      "tgravityaccmag-mean"
+      "tgravityaccmag-std"
+      "tbodyaccjerkmag-mean"
+      "tbodyaccjerkmag-std"
+      "tbodygyromag-mean"
+      "tbodygyromag-std"
+      "tbodygyrojerkmag-mean"
+      "tbodygyrojerkmag-std"
+      "fbodyacc-mean-x"
+      "fbodyacc-mean-y"
+      "fbodyacc-mean-z"
+      "fbodyacc-std-x"
+      "fbodyacc-std-y"
+      "fbodyacc-std-z"
+      "fbodyaccjerk-mean-x"
+      "fbodyaccjerk-mean-y"
+      "fbodyaccjerk-mean-z"
+      "fbodyaccjerk-std-x"
+      "fbodyaccjerk-std-y"
+      "fbodyaccjerk-std-z"
+      "fbodygyro-mean-x"
+      "fbodygyro-mean-y"
+      "fbodygyro-mean-z"
+      "fbodygyro-std-x"
+      "fbodygyro-std-y"
+      "fbodygyro-std-z"
+      "fbodyaccmag-mean"
+      "fbodyaccmag-std"
+      "fbodybodyaccjerkmag-mean"
+      "fbodybodyaccjerkmag-std"
+      "fbodybodygyromag-mean"
+      "fbodybodygyromag-std"
+      "fbodybodygyrojerkmag-mean"
+      "fbodybodygyrojerkmag-std"
+      
+# Appropriately labels the data set with descriptive activity names
+
+After step1: Merges the training and the test sets to create one data set, step2: Extracts only the measurements on the mean and standard deviation for each measurement, step3: Uses descriptive activity names to name the activities in the data set. In step4, we create a tidy data set from the merged data set as a separate text file and named it "merged_clean_data.txt".
+
+
+
+
