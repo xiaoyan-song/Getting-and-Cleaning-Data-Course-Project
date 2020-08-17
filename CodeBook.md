@@ -27,3 +27,18 @@ For each record in the dataset it is provided:
 Data sourse:
 https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip
 
+## Data package
+1. features_info.txt 
+      Stores informations about the features.
+2. features.txt
+      Contains all features.
+3. activity_labels.txt
+      Links the class labels with their activity name.
+4. X_train.txt
+      Training data
+5. y_train.txt
+      Training labels.
+6. X_test.txt
+      Test set.
+7. y_test.txt## Data package
+
